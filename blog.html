@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verdant Blog - Articles</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">Verdant<span>Blog</span></a>
+                </div>
+                <nav>
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html" class="active">Blog</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <button class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Blog Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Blog Articles</h1>
+            <p>Explore our collection of articles on sustainable living and environmental topics</p>
+        </div>
+    </section>
+
+    <!-- Blog Filter -->
+    <section class="blog-filter">
+        <div class="container">
+            <div class="filter-controls">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Search articles...">
+                    <button id="searchBtn"><i>🔍</i></button>
+                </div>
+                <div class="category-filter">
+                    <select id="categorySelect">
+                        <option value="all">All Categories</option>
+                        <option value="gardening">Gardening</option>
+                        <option value="zero-waste">Zero Waste</option>
+                        <option value="food">Sustainable Food</option>
+                        <option value="conservation">Conservation</option>
+                        <option value="energy">Energy</option>
+                        <option value="lifestyle">Lifestyle</option>
+                        <option value="travel">Travel</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Posts -->
+    <section class="blog-posts">
+        <div class="container">
+            <div class="posts-grid" id="postsGrid">
+                <!-- Post 1 -->
+                <article class="post-card">
+                    <div class="post-img">
+                        <img src="/api/placeholder/600/400" alt="Sustainable Gardening">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="category">Gardening</span>
+                            <span class="date">May 10, 2025</span>
+                        </div>
+                        <h3><a href="#">10 Tips for Sustainable Urban Gardening</a></h3>
+                        <p>Transform your small space into a thriving eco-friendly garden with these practical tips.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Post 2 -->
+                <article class="post-card">
+                    <div class="post-img">
+                        <img src="/api/placeholder/600/400" alt="Renewable Energy">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="category">Energy</span>
+                            <span class="date">May 7, 2025</span>
+                        </div>
+                        <h3><a href="#">The Rise of Community Solar Programs</a></h3>
+                        <p>How neighborhoods are coming together to harness solar power and reduce energy costs.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Post 3 -->
+                <article class="post-card">
+                    <div class="post-img">
+                        <img src="/api/placeholder/600/400" alt="Zero Waste Kitchen">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="category">Lifestyle</span>
+                            <span class="date">May 3, 2025</span>
+                        </div>
+                        <h3><a href="#">Zero-Waste Kitchen: Beginner's Guide</a></h3>
+                        <p>Simple changes to reduce food waste and plastic usage in your everyday cooking.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Post 4 -->
+                <article class="post-card">
+                    <div class="post-img">
+                        <img src="/api/placeholder/600/400" alt="Eco-friendly Travel">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="category">Travel</span>
+                            <span class="date">April 29, 2025</span>
+                        </div>
+                        <h3><a href="#">Eco-Tourism: Supporting Conservation Through Travel</a></h3>
+                        <p>How responsible travel can contribute to environmental protection and local communities.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Post 5 -->
+                <article class="post-card">
+                    <div class="post-img">
+                        <img src="/api/placeholder/600/400" alt="Composting">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="category">Zero-Waste</span>
+                            <span class="date">April 25, 2025</span>
+                        </div>
+                        <h3><a href="#">Composting in Small Spaces: Apartment Solutions</a></h3>
+                        <p>Creative ways to reduce food waste and create nutrient-rich soil even without a yard.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Post 6 -->
+                <article class="post-card">
+                    <div class="post-img">
+                        <img src="/api/placeholder/600/400" alt="Seasonal Eating">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="category">Food</span>
+                            <span class="date">April 21, 2025</span>
+                        </div>
+                        <h3><a href="#">The Benefits of Seasonal Eating: Spring Edition</a></h3>
+                        <p>Why consuming locally-grown seasonal produce is better for you and the planet.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Post 7 -->
+                <article class="post-card">
+                    <div class="post-img">
+                        <img src="/api/placeholder/600/400" alt="Ocean Conservation">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="category">Conservation</span>
+                            <span class="date">April 18, 2025</span>
+                        </div>
+                        <h3><a href="#">Ocean Conservation: Small Actions with Big Impact</a></h3>
+                        <p>Everyday choices that can help protect marine ecosystems, no matter where you live.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Post 8 -->
+                <article class="post-card">
+                    <div class="post-img">
+                        <img src="/api/placeholder/600/400" alt="Sustainable Fashion">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="category">Lifestyle</span>
+                            <span class="date">April 14, 2025</span>
+                        </div>
+                        <h3><a href="#">Building an Ethical Wardrobe: Beyond Fast Fashion</a></h3>
+                        <p>How to transition to sustainable fashion choices without breaking the bank.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+                <button class="page-btn active">1</button>
+                <button class="page-btn">2</button>
+                <button class="page-btn">3</button>
+                <button class="page-btn next">Next →</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Stay updated with our latest articles and sustainability tips</p>
+                <form id="newsletter-form">
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Enter your email address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </div>
+                    <div id="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Verdant<span>Blog</span></h3>
+                    <p>Inspiring sustainable living through informative content and community engagement.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p>Email: info@verdantblog.com</p>
+                    <p>Phone: (555) 123-4567</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i>fb</i></a>
+                        <a href="#" aria-label="Twitter"><i>tw</i></a>
+                        <a href="#" aria-label="Instagram"><i>ig</i></a>
+                        <a href="#" aria-label="Pinterest"><i>pi</i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 VerdantBlog. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verdant Blog - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">Verdant<span>Blog</span></a>
+                </div>
+                <nav>
+                    <ul class="nav-menu">
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <button class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Exploring Sustainable Living & Eco-Friendly Tips</h1>
+                <p>Join our community dedicated to green living, environmental awareness, and creating a better future
+                    for our planet.</p>
+                <div class="hero-buttons">
+                    <a href="blog.html" class="btn btn-primary">Read Articles</a>
+                    <a href="about.html" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Posts -->
+    <section class="featured-posts">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Articles</h2>
+                <p>Discover our most popular and insightful posts</p>
+            </div>
+
+            <div class="post-slider">
+                <button class="slider-btn prev" id="prevBtn">❮</button>
+                <div class="posts-container" id="postsContainer">
+                    <article class="post-card">
+                        <div class="post-img">
+                            <img src="/api/placeholder/600/400" alt="Sustainable Gardening">
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="category">Gardening</span>
+                                <span class="date">May 10, 2025</span>
+                            </div>
+                            <h3><a href="#">10 Tips for Sustainable Urban Gardening</a></h3>
+                            <p>Transform your small space into a thriving eco-friendly garden with these practical tips.
+                            </p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="post-card">
+                        <div class="post-img">
+                            <img src="/api/placeholder/600/400" alt="Renewable Energy">
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="category">Energy</span>
+                                <span class="date">May 7, 2025</span>
+                            </div>
+                            <h3><a href="#">The Rise of Community Solar Programs</a></h3>
+                            <p>How neighborhoods are coming together to harness solar power and reduce energy costs.</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="post-card">
+                        <div class="post-img">
+                            <img src="/api/placeholder/600/400" alt="Zero Waste Kitchen">
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="category">Lifestyle</span>
+                                <span class="date">May 3, 2025</span>
+                            </div>
+                            <h3><a href="#">Zero-Waste Kitchen: Beginner's Guide</a></h3>
+                            <p>Simple changes to reduce food waste and plastic usage in your everyday cooking.</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="post-card">
+                        <div class="post-img">
+                            <img src="/api/placeholder/600/400" alt="Eco-friendly Travel">
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="category">Travel</span>
+                                <span class="date">April 29, 2025</span>
+                            </div>
+                            <h3><a href="#">Eco-Tourism: Supporting Conservation Through Travel</a></h3>
+                            <p>How responsible travel can contribute to environmental protection and local communities.
+                            </p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </article>
+                </div>
+                <button class="slider-btn next" id="nextBtn">❯</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <div class="container">
+            <div class="section-header">
+                <h2>Explore Categories</h2>
+                <p>Dive into topics that interest you the most</p>
+            </div>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-icon">🌱</div>
+                    <h3>Gardening</h3>
+                    <p>Sustainable growing practices for any space</p>
+                    <a href="#" class="btn btn-outline">Explore</a>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">♻️</div>
+                    <h3>Zero Waste</h3>
+                    <p>Tips for reducing waste in daily life</p>
+                    <a href="#" class="btn btn-outline">Explore</a>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🍽️</div>
+                    <h3>Sustainable Food</h3>
+                    <p>Ethical eating and eco-friendly recipes</p>
+                    <a href="#" class="btn btn-outline">Explore</a>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">💧</div>
+                    <h3>Conservation</h3>
+                    <p>Protecting natural resources and biodiversity</p>
+                    <a href="#" class="btn btn-outline">Explore</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Stay updated with our latest articles and sustainability tips</p>
+                <form id="newsletter-form">
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Enter your email address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </div>
+                    <div id="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Verdant<span>Blog</span></h3>
+                    <p>Inspiring sustainable living through informative content and community engagement.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p>Email: info@verdantblog.com</p>
+                    <p>Phone: (555) 123-4567</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i>fb</i></a>
+                        <a href="#" aria-label="Twitter"><i>tw</i></a>
+                        <a href="#" aria-label="Instagram"><i>ig</i></a>
+                        <a href="#" aria-label="Pinterest"><i>pi</i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 VerdantBlog. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
